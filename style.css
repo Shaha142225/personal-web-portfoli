@@ -1,0 +1,237 @@
+.work-sans-normal {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+/* header image */
+  header{
+    background-image: url(../developer.png), url("../header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+  }
+
+  /* shared style */
+  .text-primary{
+     color: #FD6E0A;
+  }
+
+  .secondary-bg{
+    background-color: #FFF8F3;
+  }
+
+  .section-title{
+     font-size: bold;
+     font-weight: bold;
+  }
+  .section-descript{
+     font-size: 18px;
+     color: #757575;
+  }
+
+  nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 50px 200px;
+     
+  }
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+
+
+ .nav-title{
+    font-weight: 800px;
+     font-size: 45px;
+ }
+
+ nav ul li{
+    list-style: none;
+    margin-right: 51px ;
+    
+ }
+
+ nav ul a{
+    text-decoration: none;
+    color: #474747;
+ }
+
+ .btn-primary{
+    background-color: #FD6E0A;
+    width: 150px;
+    height: 64px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+ }
+
+ /* Banner is started */
+ .banner-greetings{
+    color: #474747;
+    font-size: 45px;
+
+ }
+ .banner-title{
+    font-family: 600px ;
+    color: #181818;
+ }
+
+ .banner-pra{
+    font-size: 20px;
+    
+ }
+
+ .banner-image{
+    height: 684px ;
+    width: 586px ;
+ }
+
+ .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 230px;
+ }
+
+ .banner-describe{
+    max-width: 585px;
+    max-height: 356px;
+    
+ }
+
+ /* Main is started */
+ main{
+     
+     max-width: 1140px;
+     padding: 160px 140px; 
+     margin: 30px auto;
+     background-color: #FFF8F3;
+ }
+
+ /* About is started */
+ .about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top:130px ;
+    text-align: center;
+
+ }
+
+ .about-items{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    margin: auto; */
+ }
+
+ .about-item{
+    margin: 10px ;
+    color: #474747;
+ }
+
+ /*What i do section started   */
+
+ .skill-title{
+   color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  left: 717px;
+  right: 716px;
+  top: 1647px;
+  
+ }
+
+
+ .skill-prag{
+   text-align: center; 
+   top: 1730px;
+   bottom: 2440px;
+   margin: 0px 750px;
+   font-family: Open Sans;
+   width: 909px;
+   height: 90px;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+   
+}
+
+/* skill card design is started  */
+
+.skill-card{
+   display: flex;
+   justify-content: space-around;
+   padding: 33px;
+   width: 1600px;
+   height: 4256px;
+   gap: 24px ;
+   padding: 250px 0px 0px 0px;
+   
+   
+}
+
+.skill-card-describe{
+   width: 267px;
+   height: 377px;
+   left: 230px;
+   right: 1103px;
+   top: 1865px;
+   bottom: 2014px;
+    font-size: 20px;
+    font-family: open sans;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    box-shadow:8px 8px 5px 7px #757575;
+    
+}
+
+/* education qualification is started */
+
+
+.resume-container{
+width: 511px;
+height: 175px;
+left: 230px;
+right: 859px;
+top: 2604px;
+bottom: 1477px;
+display: flex;
+gap:24px;
+}
+
+.education-qualification{
+   width: 1600px;
+   height: 4256px;
+}
+
+.resume-column{
+  
+ left: 573px;
+ right: 572px;
+ top: 2372px;
+ bottom: 1836px;
+
+}
+
+.btn-download{
+   margin: 30px 50px;
+}
+
+
+/* footer is started */
+.let-contact-us{
+   display: flex;
+  justify-content: flex-start;
+}
+
+footer{
+   padding: 130px 230px;
+   gap: 100px;
+}
