@@ -1,0 +1,330 @@
+.azeret-mono-font-name {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.banner-section{
+     background-image: url("../assets/Hero-bg.png");
+     width: 1440px;
+     height: 700px;
+     align-items: center;
+     left: 230px;
+     right: 230px;
+     top: 300px;
+     bottom: 220px;
+}
+/* Banner image style */
+.banner-img{
+    text-align: center;
+    margin: 26px;
+}
+
+/* banner head style */
+.banner-heading{
+     width: 1000px;
+    height: 150px;
+    font-family: Azeret Mono;
+    rgb(13, 19, 33);
+    font-size: 40px;
+    top: 131px; 
+   text-align: center;
+    line-height: 68px;
+    margin: 40px 0px;
+}
+
+/* banner pragraph styles */
+
+.banner-pragraph{
+    margin: 30px 0px;
+    padding: 0px;
+    width: 852px;
+    height: 52px;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+
+/* header button styles */
+
+/* header button styles */
+
+.header-btn{
+    margin: 50px 0px;
+    padding: 21px 24px 21px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 50px;
+}
+
+.btn{
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    
+
+}
+
+/* header part is finished. */
+
+/* main part styles */
+.learn-with-web{
+    width: 1140px;
+    height: 1395px;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 100px 80px;
+}
+
+/* Learn web deplopment pragraph style */
+
+.learm-web-devlopment{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    /* align-items: center; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 25px;
+}
+
+.web-cards-container{
+    width: 1050px;
+    height: 300px;
+    padding: 40px;
+     display: flex; 
+     flex-direction: row ;
+}
+
+
+.web-cards-contain-pra{
+    width: 700px;
+    height: 280px;
+    padding: 0px;
+    margin: 25px 0px ;
+    padding: 0px; 
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+}
+
+
+.card-heading{
+    width: 350px;
+    height: 65px;
+    margin: 16px 0px;
+    padding: 0px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+/* card-pragraph style */
+
+.card-pragraph{
+    width: 500px;
+    height: 100px;
+} 
+
+
+/* Card button is design  */
+
+ .card-btn{
+    margin: 32px 0px;  
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    text-align: center;
+    border: none;
+
+
+} 
+
+/* section is finished' */
+
+/* My inspiration is style started */
+
+.my-inspiration{
+    width: 1040px;
+    height:500px;
+    margin: 80px 70px 80px 120px;
+    align-items: center;
+    border: 1px solid #f4f4f4;
+    border-radius: 20px;
+    padding: 45px 40px;
+    
+
+}
+
+.my-inspiration-head , .my-current-target-heading{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center
+}
+
+.my-inspiration-pragraph , .my-current-target-pragraph{
+       text-align: center;
+       font-size:20px;
+
+}
+
+
+.my-inspiration-media{
+    text-align: center;
+    height: 600px;
+    width: 1100px;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+/* my-current-target is started */
+.my-current-target{
+    width: 1140px;
+    height: 460px;
+    margin: 120px 0px;
+    padding: 40px;
+    border: 0px solid #f4f4f4;
+}
+
+
+.my-current-target-container{
+    margin: 20px 30px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.my-current-target-contain1{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin: 0px 24px;
+    padding: 40px;
+}
+.my-current-target-contain2{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin: 0px 24px;
+    padding: 40px;
+}
+
+.my-current-target-contain3{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    margin: 0px 24px;
+    padding: 40px;
+}
+
+
+
+
+/* target-menu is started */
+.target-menu{
+    border: none;
+    margin: 24px 0px;
+}
+
+
+
+.nav-footer-support{
+    width: 1140px;
+    height: 313px;
+    padding: 60px 50px 60px 50px;
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)
+     
+}
+
+.nav-footer-menu{
+    margin: 30px 0px;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: ;
+    
+}
+
+.footer-btn{
+    width: 400px;
+    height: 40px;
+    padding: 28px 35px 30px 30px;
+    margin: 0px 30px;
+    
+}
+
+
+/* footer-nav-contanier style */
+.footer-nav-contanier{
+    display: flex;
+    
+    flex-direction: row;
+}
+
+.btn3{
+    width: 120px;
+    height: 80px;
+    padding: 28px 35px 30px 30px;
+    margin: 0px 30px; 
+}
+
+/* footer-nav-part is started */
+.footer-nav-part{
+
+
+
+
+}
+
+.footer-nav-contanier{
+    border-radius: 16px;
+    background: rgb(30, 30, 30);
+    width: 1440px;
+    border-radius: 16px;
+    margin: 150px 0px 0px 100px;
+    background: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    padding: 32px 150px 32px 150px;
+   
+   
+}
+ 
+
+.footer-nav-part-img  a{
+    flex-direction: row;
+    justify-content: flex-start;
+}
+   
+    
+
+
+
